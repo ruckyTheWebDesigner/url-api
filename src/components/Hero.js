@@ -2,6 +2,11 @@ import React from "react";
 import Illustration from "../assets/images/illustration-working.svg";
 
 function Hero() {
+  const scrollTo = (id) => {
+    const element = document.getElementById(id);
+    element.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+
   return (
     <>
       {/* hero section */}
@@ -12,7 +17,11 @@ function Hero() {
             Build your brand recognition and get detail insights on how your
             links are performing.
           </p>
-          <button className='btn_getstarted button'>Get Started</button>
+          <button
+            onClick={() => scrollTo("form")}
+            className='btn_getstarted button'>
+            Get Started
+          </button>
         </div>
         <div className='illustration_wrapper'>
           <img

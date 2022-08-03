@@ -14,7 +14,7 @@ function Form({ onSubmit, error }) {
   // shortlink form inputs
 
   return (
-    <div className='form'>
+    <div className='form' id='form'>
       <form
         className={resolution < 768 ? "form_mobile" : "form_desktop"}
         onSubmit={onSubmit}>
