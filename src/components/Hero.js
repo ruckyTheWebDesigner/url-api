@@ -12,7 +12,7 @@ function Hero() {
             Build your brand recognition and get detail insights on how your
             links are performing.
           </p>
-          <button className='btn_getstarted'>Get Started</button>
+          <button className='btn_getstarted button'>Get Started</button>
         </div>
         <div className='illustration_wrapper'>
           <img

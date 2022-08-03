@@ -124,7 +124,7 @@ button:hover {
 
 .form_mobile {
   padding: 30px 40px;
-  margin: -50px 30px 30px 30px;
+  margin: -40px 30px 30px 30px;
   background-image: url("./assets/images/bg-shorten-mobile.svg");
   background-repeat: no-repeat;
   background-color: hsl(255, 11%, 22%);
@@ -251,7 +251,7 @@ button:hover {
   cursor: pointer;
 }
 
-button:hover {
+.button:hover {
   cursor: pointer;
   background: #9ae3e3;
 }
@@ -293,7 +293,7 @@ p {
   }
 
   .hero_section {
-    height: 85vh;
+    height: 95vh;
   }
 
   .hero_text {

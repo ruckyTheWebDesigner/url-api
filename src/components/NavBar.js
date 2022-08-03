@@ -60,7 +60,7 @@ function MobileNav() {
         </div>
         <div>
           <h4>Login</h4>
-          <button>Sign up</button>
+          <button className='button'>Sign up</button>
         </div>
       </Drawer>
     </>
@@ -81,7 +81,7 @@ function DesktopNav() {
       </div>
       <div className='login_btn'>
         <span className='mr-2'>Login</span>
-        <button className='signupbtn'>Sign up</button>
+        <button className='signupbtn button'>Sign up</button>
       </div>
     </div>
   );

@@ -22,10 +22,9 @@ function HomePage() {
 
     if (e.target.text.value) {
       fetchUrl(e.target.text.value);
-      e.target.text.value = "";
+      e.target.text.value = null;
     } else if (
       e.target.text.value === "" ||
-      e.target.text.value === null ||
       e.target.text.value === undefined
     ) {
       setError("Please add a link");
